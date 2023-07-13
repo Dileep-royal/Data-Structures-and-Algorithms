@@ -3,24 +3,15 @@ This Repository contains the code written in python programming language. The Co
 
 
 
-| Chapter 	| Topic            	| Completed 	| Link 	|
-|---------	|------------------	|-----------	|------	|
-| 1       	| Arrays & Hashing 	| <p align="center" style="color:green;">✔️</p> | [Click Here](Chapter-1) |
-| 2       	| Two Pointers     	| <p align="center" style="color:red;">❌</p> | [Click Here](Chapter-2) |
-| 3       	| Binary Search    	|           	|      	|
-| 4       	|                  	|           	|      	|
-| 5       	|                  	|           	|      	|
-| 6        	|                  	|           	|      	|
-| 7        	|                  	|           	|      	|
-| 8       	|                  	|           	|      	|
-| 9        	|                  	|           	|      	|
-| 10       	|                  	|           	|      	|
-| 11        |                  	|           	|      	|
-|         	|                  	|           	|      	|
-|         	|                  	|           	|      	|
-|         	|                  	|           	|      	|
-|         	|                  	|           	|      	|
-|         	|                  	|           	|      	|
-|         	|                  	|           	|      	|
-|         	|                  	|           	|      	|
-|         	|                  	|           	|      	|
+| Chapter 	| Topic            	| Completed 	| Link 	                 |
+|---------	|------------------	|:-----------:|------	                   |
+| 1       	| Arrays & Hashing 	| ❌          | [Click Here](Chapter-1) |
+| 2       	| Two Pointers     	| ❌          | [Click Here](Chapter-2) |
+| 3       	| Binary Search    	| ❌          | [Click Here](Chapter-3) |         
+| 4       	|                  	| ❌          | [Click Here](Chapter-4) |          	      	
+| 5       	|                  	| ❌          | [Click Here](Chapter-5) |          	      	
+| 6        	|                  	| ❌          | [Click Here](Chapter-6) |          	      	
+| 7        	|                  	| ❌          | [Click Here](Chapter-7) |          	      	
+| 8       	|                  	| ❌          | [Click Here](Chapter-8) |          	      	
+| 9        	|                  	| ❌          | [Click Here](Chapter-9) |          	      	
+| 10       	|                  	| ❌          | [Click Here](Chapter-10) |          	      
