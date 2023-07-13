@@ -17,6 +17,6 @@ This Repository contains the code written in python programming language. The Co
 | 10       	|                  	| ❌          | [Click Here](Chapter-10) |          	      
 
 # Resources
-* I also followed kunal kushwaha DSA Playlist from Youtube - [Check Out the Playlist]()
-* I followed neetcode DSA Sheet - [Download]()
+* I also followed kunal kushwaha DSA Playlist from Youtube - [Check Out the Playlist](https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
+* I followed neetcode DSA Sheet - [Download](https://neetcode.io/practice)
   
