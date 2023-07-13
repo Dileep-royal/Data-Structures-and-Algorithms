@@ -5,8 +5,8 @@ This Repository contains the code written in python programming language. The Co
 
 | Chapter 	| Topic            	| Completed 	| Link 	|
 |---------	|------------------	|-----------	|------	|
-| 1       	| Arrays & Hashing 	|<p align="center" style="color:green;">:heavy_check_mark:</p>    |[Click Here](Chapter-1)      	|
-| 2       	| Two Pointers     	|           	|      	|
+| 1       	| Arrays & Hashing 	| <p align="center" style="color:green;">✔️</p> | [Click Here](Chapter-1) |
+| 2       	| Two Pointers     	| <p align="center" style="color:red;">❌</p> | [Click Here](Chapter-2) |
 | 3       	| Binary Search    	|           	|      	|
 | 4       	|                  	|           	|      	|
 | 5       	|                  	|           	|      	|
