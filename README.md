@@ -5,7 +5,7 @@ This Repository contains the code written in python programming language. The Co
 
 | Chapter 	| Topic            	| Completed 	| Link 	|
 |---------	|------------------	|-----------	|------	|
-| 1       	| Arrays & Hashing 	|<p align="center">:heavy_check_mark:</p>    |      	|
+| 1       	| Arrays & Hashing 	|<p align="center" color="green">:heavy_check_mark:</p>    |      	|
 | 2       	| Two Pointers     	|           	|      	|
 | 3       	| Binary Search    	|           	|      	|
 | 4       	|                  	|           	|      	|
