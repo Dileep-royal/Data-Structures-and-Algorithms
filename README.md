@@ -4,7 +4,7 @@ This Repository contains the code written in python programming language. The Co
 
 
 | Chapter 	| Topic            	| Completed 	| Link 	                 |
-|---------	|------------------	|:-----------:|------	                   |
+|---------	|------------------	|:-----------:|------	                  |
 | 1       	| Arrays & Hashing 	| ❌          | [Click Here](Chapter-1) |
 | 2       	| Two Pointers     	| ❌          | [Click Here](Chapter-2) |
 | 3       	| Binary Search    	| ❌          | [Click Here](Chapter-3) |         
@@ -15,3 +15,8 @@ This Repository contains the code written in python programming language. The Co
 | 8       	|                  	| ❌          | [Click Here](Chapter-8) |          	      	
 | 9        	|                  	| ❌          | [Click Here](Chapter-9) |          	      	
 | 10       	|                  	| ❌          | [Click Here](Chapter-10) |          	      
+
+# Resources
+* I also followed kunal kushwaha DSA Playlist from Youtube - [Check Out the Playlist]()
+* I followed neetcode DSA Sheet - [Download]()
+  
