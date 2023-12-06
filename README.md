@@ -18,5 +18,5 @@ This Repository contains the code written in python programming language. The Co
 
 # Resources
 * Follow kunal kushwaha DSA Playlist from Youtube - [Check Out the Playlist](https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ)
-* Follow neetcode to practice DSA - [Download](https://neetcode.io/practice)
+* Follow neetcode to practice DSA - [Click Here](https://neetcode.io/practice)
   
