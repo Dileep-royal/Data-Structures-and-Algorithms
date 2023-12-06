@@ -1,5 +1,5 @@
 # Data-Structures-and-Algorithms
-This Repository contains the code written in python & java programming language. The Code is regarding Data Structures and Algorithms. Refer Readme.md file for detail description of topic covered.
+This Repository contains the code written in Python & Java programming language. The Code is regarding Data Structures and Algorithms. Refer Readme.md file for detail description of topic covered.
 
 
 
