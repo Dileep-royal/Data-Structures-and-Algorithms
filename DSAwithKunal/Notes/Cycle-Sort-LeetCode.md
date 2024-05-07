@@ -1,4 +1,4 @@
-# Day-10[LeetCode]
+# Cycle Sort LeetCode
 
 ## Cycle Sort leetcode problems
 

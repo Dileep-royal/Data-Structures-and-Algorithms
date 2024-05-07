@@ -1,4 +1,4 @@
-# Day-05 [Linear Searching Algorithm]
+# Linear Searching Algorithm
 
 ## Linear Search Algorithm
 

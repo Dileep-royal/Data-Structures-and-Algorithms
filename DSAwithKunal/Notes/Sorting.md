@@ -1,4 +1,4 @@
-# Day-09[Sorting]
+# Sorting
 
 ## Sorting Algorithms
 

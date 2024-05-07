@@ -1,4 +1,4 @@
-# Day_00[Basics of programming]
+# Basics of programming
 
 we are going to learn about the different types of languages & memory managements
 
@@ -126,8 +126,8 @@ Flowchart are used to visualize our thought process step by step using figures/s
     - The run-time stack does not overflow.
     - If any of the above checks fail, the verifier doesn’t allow the class to be loaded.
 - Just in Time Compiler converts the loaded byte code into machine code.
-![Screenshot 2023-06-06 153255.png](../Images/Screenshot_2023-06-06_153255.png)
 
+![](../Assets/Screenshot%202024-04-10%20213126.png)
 →Refer below
 
 [Compilation and Execution of a Java Program - GeeksforGeeks](https://www.geeksforgeeks.org/compilation-execution-java-program/)

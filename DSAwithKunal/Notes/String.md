@@ -1,6 +1,4 @@
-# Day -11[String]
-
-## String and StringBuilder
+# String and StringBuilder
 
 String is a collection of characters.
 

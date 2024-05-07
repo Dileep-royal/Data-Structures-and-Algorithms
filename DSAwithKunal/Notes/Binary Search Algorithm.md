@@ -1,4 +1,4 @@
-# Day-06 [Binary Search Algorithm]
+# Binary Search Algorithm
 
 ## Binary Search Algorithm
 

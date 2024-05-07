@@ -1,4 +1,4 @@
-# Day-02[Conditionals and Loops]
+# Conditionals and Loops
 
 ## Conditionals and Loops + Calculator program
 

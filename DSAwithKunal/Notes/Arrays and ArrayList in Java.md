@@ -1,4 +1,4 @@
-# Day-04 [Arrays and ArrayList in Java]
+# Arrays and ArrayList in Java
 
 ## Arrays
 

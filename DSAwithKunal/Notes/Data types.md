@@ -1,4 +1,4 @@
-# Day-01[Data types]
+# Data types
 
 # Data types and Standard Input & Output
 
@@ -21,7 +21,7 @@ int million= 23_00_000; //instead of using comma(,) use underscore (_)
 boolean age18=true; // 1 byte 0(false) or 1(true)
 ```
 
-why float data type value have ended with ‘f’ and long data type value ended with ‘L’?
+Why float data type value have ended with ‘f’ and long data type value ended with ‘L’?
 
 1. Decimal values are by default of type double, but to store them in float we use ‘f’ to specify it is of type float.
 2. long data type is used to store larger values, L is used to differentiate it from normal integer data type and will allocates 8 bytes instead of 4 bytes.
@@ -51,7 +51,7 @@ float decimal=input.nextFloat();
 double longDecimal=input.nextDouble();
 
 // Char data type input taking methods
-char character=input.next();
+String character=input.next();
 String string= input.nextLine();
 
 //Boolean type

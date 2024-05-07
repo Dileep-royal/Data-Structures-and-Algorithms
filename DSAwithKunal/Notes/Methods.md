@@ -1,4 +1,4 @@
-# Day-03[Methods]
+# Methods
 
 ## Methods in java
 
