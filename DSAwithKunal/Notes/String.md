@@ -6,6 +6,8 @@ We have String Data type in java. The Java platform provides the String class to
 
 The value assigning to String type variable will be in double quotes i.e. `“ ”`.
 
+Strings are `Immutable`.
+
 String syntax is as shown below
 
 ```java
