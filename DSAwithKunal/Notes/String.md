@@ -4,7 +4,7 @@ String is a collection of characters. In the Java programming language, strings 
 
 We have String Data type in java. The Java platform provides the String class to create and manipulate strings.
 
-The value assigning to String type variable will be in double quotes i.e. “ ”.
+The value assigning to String type variable will be in double quotes i.e. `“ ”`.
 
 String syntax is as shown below
 
@@ -16,9 +16,9 @@ String b="Dileep";
 System.out.println(a==b); // true
 ```
 
-We have separate memory for string in heap memory called String constant pool.
+We have separate memory for string in heap memory called `String constant pool`.
 
-Two reference variable stores same object, then Both reference variable refers to only one object.
+Two reference variable stores same object, then `Both reference variable refers to only one object`.
 
 ### Strings are immutable
 
