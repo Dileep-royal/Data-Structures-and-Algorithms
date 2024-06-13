@@ -161,6 +161,20 @@ We can use “+” operator to concatenate two strings. This is called String Co
 
 This additional feature of “+” operator is achieved by operator overloading.
 
+```Java
+// String Concatenation vs Character Concatenation
+        System.out.println('a'); // a
+        System.out.println('a'+'b'); // 195
+        System.out.println("a"+"b"); // ab
+        System.out.println('a'+3); // 100
+        System.out.println((char)('a'+3)); // d
+        System.out.println("a"+3); // a3 - int -> Integer(Autoboxing) and call toString method which again returns 1 as a String.
+        System.out.println("dileep"+new ArrayList<>()); // dileep[]
+//        System.out.println(2+new ArrayList<>()); // Error // we must have at least one string
+        System.out.println(2+""+new ArrayList<>()); //2[]
+        System.out.println("a"+''b) // ab
+```
+
 In java there is no other operators like “*” (Asterik) is overloaded. It is overloaded in python and c++.
 
 ## Mutable Strings
