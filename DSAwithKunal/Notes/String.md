@@ -4,15 +4,19 @@ String is a collection of characters. In the Java programming language, strings 
 
 We have String Data type in java. The Java platform provides the String class to create and manipulate strings.
 
-The value assigning to String type variable will be in double quotes i.e. `“ ”`.
+The value assigning to String type variable has to be kept within double quotes i.e. `“ ”`.
 
 Strings are `Immutable`.
+
+we have two way to Create Strings:
+1. `String literal`
+2. Using `new Keyword` along String Constructor
 
 String syntax is as shown below
 
 ```java
 // String variable_name ="String_value";
-// Using string literal
+// String Creation: Using string literal
 String a="Dileep";
 String b="Dileep";
 
@@ -56,11 +60,17 @@ System.out.println(s2.equals(s4)); // false, because both objects have different
 
 Strings are immutable i.e., we cannot modify String value, but we can reassign a reference variable with new object.
 
-### How to create objects with same value?
+We cannot able to modify the characters of a string.
 
-By using “new” Keyword, which create object outside of string pool but inside the heap memory.
+We cannot access characters of a String using indexing `str[index]`.
+```Java
+String s5 = new String("Dileep");
+s5=new String("DSA"); // assigning a new object to variable, "Dileep" object in heap is collected by Garbage Collector.
+```
 
-This additional feature of “+” operator is achieved by operator overloading.
+### How to create objects with same value but different address?
+
+By using `“new”` Keyword, which create object outside of `string constant pool` but inside the `heap memory`.
 
 ```java
 String name1="Dileep";
@@ -72,9 +82,11 @@ System.out.println(a==b);. // false because reference variables are not pointing
 System.out.println(a.equals(b));. // true, Compares the values
 ```
 
-### Use of “+” operator with Strings
+### Use of “+” operator with Strings - String Concatenation
 
 We can use “+” operator to concatenate two strings. This is called String Concatenation.
+
+This additional feature of “+” operator is achieved by operator overloading.
 
 In java there is no other operators like “*” (Asterik) is overloaded. It is overloaded in python and c++.
 
