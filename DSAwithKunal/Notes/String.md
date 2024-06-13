@@ -15,12 +15,42 @@ String syntax is as shown below
 // Using string literal
 String a="Dileep";
 String b="Dileep";
-System.out.println(a==b); // true
+
+//  String Creation: using new keyword along with String Constructor - Heap memory
+String s2 = new String("Dileep");
+String s3 = new String("Dileep");
+
+System.out.println(s.hashCode());  // 2047069705
+System.out.println(s1.hashCode()); // 2047069705
+System.out.println(s2.hashCode()); // 2047069705
+System.out.println(s3.hashCode()); // 2047069705
+// we are getting same hashcode i.e. id (not address) because of "global dictionary", if the object and content is same, it won't create new object even if you use new keyword to create String
+
 ```
 
-We have separate memory for string in heap memory called `String constant pool`.
+We have separate memory for strings created using String literal in heap memory called `String constant pool`.
+Two or more strings created using String literal which holds same value hava same address.
+
+Strings created using new keyword gets memory in `heap` but, not inside `String Constant Pool`.
+Two or more strings created using String literal which holds same value hava different address.
 
 Two reference variable stores same object, then `Both reference variable refers to only one object`.
+
+### == vs equals()
+* `==` Compares objects based on Objects addresses.
+* `equals()` Compares objects based on Objects value.
+
+```java
+// ==
+System.out.println(s == s1); // true, because both objects are pointing to same address
+System.out.println(s2 == s3 ); // false, because both objects are pointing to different address
+
+// equals()
+System.out.println(s.equals(s2)); // true, because both objects have same value
+System.out.println(s.equals(s)); // true, because both objects have same value
+System.out.println(s2.equals(s4)); // false, because both objects have different value
+
+```
 
 ### Strings are immutable
 
@@ -36,7 +66,8 @@ This additional feature of “+” operator is achieved by operator overloading.
 String name1="Dileep";
 String a=new String("Dileep");
 String b=new String("Dileep");
-System.out.println(name1==a); // false same reason as below camporison
+
+System.out.println(name1==a); // false same reason as below comparing addresses
 System.out.println(a==b);. // false because reference variables are not pointing to same object, compares the objects
 System.out.println(a.equals(b));. // true, Compares the values
 ```
