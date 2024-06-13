@@ -159,7 +159,8 @@ System.out.printf("First argument is %d, second argument is %d", 1, 2); // First
 
 We can use “+” operator to concatenate two strings. This is called String Concatenation.
 
-This additional feature of “+” operator is achieved by operator overloading.
+This additional feature of “+” operator is achieved by operator overloading. 
+`But there is no concept of operator overloading except for strings for operator +`.
 
 ```Java
 // String Concatenation vs Character Concatenation
