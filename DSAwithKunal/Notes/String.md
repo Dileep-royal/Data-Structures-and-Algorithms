@@ -78,8 +78,23 @@ String a=new String("Dileep");
 String b=new String("Dileep");
 
 System.out.println(name1==a); // false same reason as below comparing addresses
-System.out.println(a==b);. // false because reference variables are not pointing to same object, compares the objects
+System.out.println(a==b); // false because reference variables are not pointing to same object, compares the objects
 System.out.println(a.equals(b));. // true, Compares the values
+```
+
+### How to take String inputs using Scanner class
+`next()` - to take single word as String input.
+
+if you give multiple words as input to `next()`, it will treat space as a next line and it will only take one word as input by discarding other words.
+
+`nextLine()` - to take multiple words as String inputs.
+```Java
+Scanner sc = new Scanner(System.in);
+String str1 = sc.next(); // single word String
+String str2 = sc.nextLine(); // multi-word String
+
+System.out.println(str1);
+System.out.println(str2);
 ```
 
 ### Use of “+” operator with Strings - String Concatenation
