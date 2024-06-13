@@ -97,7 +97,65 @@ System.out.println(str1);
 System.out.println(str2);
 ```
 
-### Use of “+” operator with Strings - String Concatenation
+## Pretty Printing
+They are placeholders to print different data types in a pretty way:
+
+%c - Character
+%d - Decimal number (base 10)
+%e - Exponential floating-point number
+%f - Floating-point number
+%i - Integer (base 10)
+%o - Octal number (base 8)
+%s - String
+%u - Unsigned decimal (integer) number
+%x - Hexadecimal number (base 16)
+%t - Date/time
+%n - Newline
+
+\  - Escape character
+\n - Move to new line
+%% - Print % -> why not \%. There is a convention that special characters escape themselves.
+\\ - Print \
+\t - Insert tab
+
+we can use this placeholders within this methods generally.
+* `printf()`
+* `format()`
+
+```Java
+System.out.printf("My name is %s and my age is %d\n","dileep",20);
+System.out.printf("Pie : %.2f\n",Math.PI); // precision to 2 decimal places
+System.out.printf("Value with rounding off %.2f\n",76578.768987f); // 76578.77 // rounding off
+System.out.printf("%%") // %
+System.out.printf("/tDileep") // "    Dileep"
+System.out.printf("\"") // "
+System.out.printf("\\") // \
+```
+
+### Format Padding
+* To add Padding to the String
+* %(digit)s - left padding
+* %-(digit)s - right padding
+```Java
+System.out.printf("%10s\n", "stack"); // "     stack"
+System.out.printf("%-10s\n", "stack"); //"stack     "
+```
+
+### Locale
+* We can also pass a `Locale` as the first argument, formatting the String according to it
+```Java
+System.out.printf(Locale.US, "%,d\n", 5000); // 5,000
+System.out.printf(Locale.ITALY, "%,d\n", 5000); // 5.000
+```
+
+### Argument Index
+* If no argument index is provided, the arguments will simply follow the order of presence in the method call.
+```Java
+System.out.printf("First argument is %2$d, second argument is %1$d", 2, 1); // First argument is 1, second argument is 2
+System.out.printf("First argument is %d, second argument is %d", 1, 2); // First argument is 1, second argument is 2
+```
+
+## Use of “+” operator with Strings - String Concatenation
 
 We can use “+” operator to concatenate two strings. This is called String Concatenation.
 
@@ -105,7 +163,7 @@ This additional feature of “+” operator is achieved by operator overloading.
 
 In java there is no other operators like “*” (Asterik) is overloaded. It is overloaded in python and c++.
 
-# StringBuilder
+## Mutable Strings
 
 StringBuilder allows you to modify String value with the help of many pre-defined methods.
 
