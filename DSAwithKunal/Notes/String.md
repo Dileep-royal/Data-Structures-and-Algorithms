@@ -1,4 +1,4 @@
-# String and StringBuilder
+# All about String in Java
 
 String is a collection of characters. In the Java programming language, strings are objects.
 
