@@ -93,6 +93,7 @@ Flowchart are used to visualize our thought process step by step using figures/s
       - Archive - jar
       - docs generator - javadoc
       - Interpreter/ Loader
+`A JAR file is a compressed archive format that contains multiple Java-related files, such as class files, resources, and metadata. It allows developers to bundle Java applications, libraries, or modules into a single file for easier distribution and deployment. It's a file format based on the popular ZIP file format and is used for aggregating many files into one.`
 
 ## JRE
 
