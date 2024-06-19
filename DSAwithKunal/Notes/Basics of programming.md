@@ -84,6 +84,7 @@ Flowchart are used to visualize our thought process step by step using figures/s
 
 - Stands for Java Development Kit.
 - Provides environment to develop and run the java programs.
+- It allows us to compile, debug and execute java programs.
 - It is a package that includes the following:
     - JRE - To run the programs
     - Development tools- Provides environment which allows you to develop java programs.
@@ -102,7 +103,7 @@ Flowchart are used to visualize our thought process step by step using figures/s
     - Deployment technologies
     - User interface toolkits
     - Integration libraries
-    - Base libraries
+    - Base class libraries
     - JVM
 
 ## JVM
