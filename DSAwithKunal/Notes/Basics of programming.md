@@ -18,7 +18,7 @@ we are going to learn about the different types of languages & memory management
 
 - Function is a block of statements that allows us to reuse the code & to decreases the number of lines of code.
 - Writing programs only in pure functions and first class functions.
-- A function is called **Pure function**, if it always returns the same result for same argument values and it has no side effects like modifying an argument or outputting something else because of something that is outside of function(i.e; global variables,...).                   Examples are strlen(), pow(), sqrt() etc.
+- A function is called **Pure function**, if it always returns the same result if given the same argument values and it has no side effects like modifying an argument or outputting something else because of something that is outside of function(i.e; global variables,...).                   Examples are strlen(), pow(), sqrt() etc.
 - If a function is known as pure to compiler then **[Loop optimization](http://en.wikipedia.org/wiki/Loop_optimization)** and **[subexpression elimination](http://en.wikipedia.org/wiki/Common_subexpression_elimination)** can be applied to it.
 - Used in ML, to perform different operations on the same dataset
 
@@ -34,6 +34,8 @@ we are going to learn about the different types of languages & memory management
 ### 3. Object oriented
 
 - Revolves around objects.
+- Pursuing everything in the form of objects and organizing `software designs` around objects rather than logic and functions.
+- Foolws real world principles called OOPs principles i.e. Encapsulation, Inheritance, Polymorphism and Abstraction.
 - Code + Data = Object
 - This contains class which acts as a prototype or template of objects.
 - we can create various objects from a class with different functionalities(methods) and data.
