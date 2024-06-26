@@ -173,7 +173,7 @@ This additional feature of “+” operator is achieved by operator overloading.
         System.out.println("dileep"+new ArrayList<>()); // dileep[]
 //        System.out.println(2+new ArrayList<>()); // Error // we must have at least one string
         System.out.println(2+""+new ArrayList<>()); //2[]
-        System.out.println("a"+''b) // ab
+        System.out.println("a"+'b') // ab
 ```
 
 In java there is no other operators like “*” (Asterik) is overloaded. It is overloaded in python and c++.
